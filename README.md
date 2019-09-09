@@ -1,6 +1,6 @@
-# Halfedge Mesh Data Structure
+# Halfedge Mesh data structure
 This is a computer graphics project that uses interlinked pointers in C++ to create an interactive Halfedge Mesh data structure. It is rendered using OpenGL vertex buffers and a polar spherical camera. 
-I implemented a GUI to perform various mesh topology editing operations, including splitting edges, face
+I implemented a GUI to perform various mesh topology editing operations real time, including splitting edges, face
 triangulation, Catmull-Clark Subdivision, and extruding faces. I also created an interactive skeleton with transformable joints that can be bound to a mesh’s vertices to allow linear skin deformation.
 
 Here are some images to showcase a few features: 
