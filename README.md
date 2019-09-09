@@ -1,2 +1,21 @@
-# cis560-halfedge-mesh
-This is a computer graphics project that uses interlinked pointers to create an interactive Halfedge Mesh data structure and perform various editing operations. See specifics in the README below. 
+# Halfedge Mesh Data Structure
+This is a computer graphics project that uses interlinked pointers in C++ to create an interactive Halfedge Mesh data structure. It is rendered using OpenGL vertex buffers and a polar spherical camera. 
+I implemented a GUI to perform various mesh topology editing operations, including splitting edges, face
+triangulation, Catmull-Clark Subdivision, and extruding faces. I also created an interactive skeleton with transformable joints that can be bound to a mesh’s vertices to allow linear skin deformation.
+
+Here are some images to showcase a few features: 
+
+In this image I have loaded an OBJ file of a dodecahedron, rendered with Lambertian shading-
+![alt text](https://github.com/jauckley/cis560-halfedge-mesh/blob/master/images/dodeca.png)
+
+Here I extruded each face of the geometry-
+![alt text](https://github.com/jauckley/cis560-halfedge-mesh/blob/master/images/dodeca_extruded.png)
+
+This image shows the result of performing 3 iterations of Catmull-Clark Subdivision on the extruded dodecahedron-
+![alt text](https://github.com/jauckley/cis560-halfedge-mesh/blob/master/images/dodeca_subdiv.png)
+
+This is an unaltered rendering of a cow, broken into polygons-
+![alt text](https://github.com/jauckley/cis560-halfedge-mesh/blob/master/images/cow.png)
+
+Here I have bound each vertex of the cow to joints (loaded from a JSON file) and manipulated joints to rotate the neck of the cow and its back leg-
+![alt text](https://github.com/jauckley/cis560-halfedge-mesh/blob/master/images/cow_rotated.png)
