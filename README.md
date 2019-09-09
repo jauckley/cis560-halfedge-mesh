@@ -16,8 +16,8 @@ Here I extruded each face of the geometry-
 This image shows the result of performing 3 iterations of Catmull-Clark Subdivision on the extruded dodecahedron-
 ![alt text](https://github.com/jauckley/cis560-halfedge-mesh/blob/master/images/dodeca_subdiv.png)
 
-This is an unaltered rendering of a cow, broken into polygons-
+This is an unaltered rendering of a cow broken into polygons, and joints loaded from a JSON-
 ![alt text](https://github.com/jauckley/cis560-halfedge-mesh/blob/master/images/cow.png)
 
-Here I have bound each vertex of the cow to joints (loaded from a JSON file) and manipulated joints to rotate the neck of the cow and its back leg-
+Here I have bound each vertex of the cow to the joints and manipulated them to rotate the neck of the cow and its back leg-
 ![alt text](https://github.com/jauckley/cis560-halfedge-mesh/blob/master/images/cow_rotated.png)
